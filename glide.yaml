@@ -1,0 +1,8 @@
+package: github.com/leeola/hob
+import:
+- package: github.com/urfave/cli
+  version: ^1.18.1
+- package: github.com/pkg/errors
+- package: github.com/inconshreveable/log15
+- package: github.com/pressly/chi
+  version: v2.0.0rc1

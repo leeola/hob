@@ -1,0 +1,29 @@
+hash: bc6193810bdb17bdf728a9f8556a43c29ad4ad0e8dca34df96007ca6edf9bde4
+updated: 2016-11-11T18:16:48.297238102-08:00
+imports:
+- name: github.com/inconshreveable/log15
+  version: b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f
+- name: github.com/mattn/go-colorable
+  version: d228849504861217f796da67fae4f6e347643f15
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/pkg/errors
+  version: 248dadf4e9068a0b3e79f02ed0a610d935de5302
+- name: github.com/pressly/chi
+  version: fc6251083a856d5093f4b96d71252c5e56d9c1b5
+- name: github.com/urfave/cli
+  version: a14d7d367bc02b1f57d88de97926727f2d936387
+- name: golang.org/x/net
+  version: 0e2717dc3cc05907dc23096ef3a9086ea93f567f
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: b699b7032584f0953262cb2788a0ca19bb494703
+  subpackages:
+  - unix
+- name: gopkg.in/inconshreveable/log15.v2
+  version: b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f
+  subpackages:
+  - stack
+  - term
+testImports: []
