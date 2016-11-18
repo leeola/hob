@@ -14,7 +14,11 @@ func ApiDefault(e hob.Events, a hob.Actions) http.Handler {
 
 func ApiVersion0(e hob.Events, a hob.Actions) http.Handler {
 	r := chi.NewRouter()
-	r.Get("/events/:event", handlers.EventHandler(e, a))
+
+	eventHandler := handlers.EventHandler(e, a)
+	r.Get("/events/:event", eventHandler)
+	r.Post("/events/:event", eventHandler)
+
 	r.Get("/actions/:action/longpoll", handlers.LongpollHandler())
 	return r
 }
