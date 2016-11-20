@@ -1,6 +1,8 @@
-hash: bc6193810bdb17bdf728a9f8556a43c29ad4ad0e8dca34df96007ca6edf9bde4
-updated: 2016-11-11T18:16:48.297238102-08:00
+hash: aa4d2d5f0e2cff4b0636d371541b7f4dd2d636db3b9977d88d7715edde9cbbf6
+updated: 2016-11-20T15:13:05.716285208-08:00
 imports:
+- name: github.com/BurntSushi/toml
+  version: 99064174e013895bbd9b025c31100bd1d9b590ca
 - name: github.com/inconshreveable/log15
   version: b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f
 - name: github.com/mattn/go-colorable
@@ -12,11 +14,7 @@ imports:
 - name: github.com/pressly/chi
   version: fc6251083a856d5093f4b96d71252c5e56d9c1b5
 - name: github.com/urfave/cli
-  version: a14d7d367bc02b1f57d88de97926727f2d936387
-- name: golang.org/x/net
-  version: 0e2717dc3cc05907dc23096ef3a9086ea93f567f
-  subpackages:
-  - context
+  version: a8fc36b690712e61212d8cb9450eabf2be359fca
 - name: golang.org/x/sys
   version: b699b7032584f0953262cb2788a0ca19bb494703
   subpackages:
