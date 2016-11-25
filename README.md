@@ -10,6 +10,12 @@ the design.
 With that said, the first versions mainly focus on overall API design and will
 not have much *(if any)* ability to be configured via the Web UI.
 
+## Motivation
+
+I was dismayed with some of the slow response times for products like IFTTT,
+so i wanted a generic and as flexible-as-possible event trigger system. Hob and Hob
+Plugins will be an evolving software suite towards this goal.
+
 ## API Design
 
 Hob is implemented as a series of events and actions tied together by
@@ -32,3 +38,7 @@ called. For a simpler option, a bash script can loop a curl request on
 
 Hobs goal is to be simple and flexible for one job: calling actions with
 flexibility. No complicated RPC framework is needed.
+
+## License
+
+MIT
